@@ -1,0 +1,27 @@
+.navbar-container {
+  padding: 2rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-container img {
+  width: 10rem;
+  height: auto;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: var(--light-color);
+  transition: all 0.2s ease;
+}
+
+.navbar-links a:hover {
+  font-weight: 700;
+  border-bottom: 1px solid var(--light-color);
+}
