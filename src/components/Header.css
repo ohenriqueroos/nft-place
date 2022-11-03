@@ -28,3 +28,50 @@
   height: 38rem;
   width: auto;
 }
+
+@media (max-width: 415px) {
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  .header-container {
+    height: 100vh !important;
+  }
+
+  .header {
+    padding-inline: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-action {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .header-picture img {
+    height: 28rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    height: 160vh;
+  }
+  
+
+  .header {
+    padding-inline: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-action {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+}

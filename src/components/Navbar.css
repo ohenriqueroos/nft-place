@@ -25,3 +25,9 @@
   font-weight: 700;
   border-bottom: 1px solid var(--light-color);
 }
+
+@media (max-width: 768px) {
+  .navbar-container {
+    display: none;
+  }
+}
