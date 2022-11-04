@@ -8,6 +8,7 @@
   --primary-color: #2BC7D9;
   --secondary-color: #79F2E6;
   --assistant-color: #024059;
+  --hover-color: #EB38D2;
   --light-color: #fff;
   --dark-color: #102026;
 }
@@ -24,6 +25,13 @@ h1 {
   color: var(--light-color);
 }
 
+h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  font-weight: 900;
+  text-align: center;
+}
+
 span {
   font-size: 1.2rem;
   color: var(--light-color);
@@ -33,6 +41,12 @@ button {
   cursor: pointer;
 }
 
+.container {
+  padding: 2rem 10rem;
+  display: flex;
+}
+
+/* Buttons */
 .btn-primary {
   padding-inline: 1.5rem;
   width: fit-content;
@@ -43,9 +57,10 @@ button {
   color: var(--dark-color);
   font-weight: 700;
   box-shadow: 5px 5px 24px 1px rgba(0,0,0,0.50);
-  transition: all .5s linear;
+  transition: all .5s ease-in-out;
 }
 
 .btn-primary:hover {
-  background: var(--secondary-color);
+  background: var(--hover-color);
+  color: var(--light-color);
 }
